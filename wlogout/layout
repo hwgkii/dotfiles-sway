@@ -1,0 +1,36 @@
+{
+    "label": "lock",
+    "action": "hyprlock",
+    "text": "Lock",
+    "keybind": "l"
+},
+{
+    "label": "logout",
+    "action": "loginctl terminate-session self",
+    "text": "Logout",
+    "keybind": "e"
+},
+{
+    "label": "suspend",
+    "action": "lockscreen.sh & disown && loginctl suspend",
+    "text": "Suspend",
+    "keybind": "u"
+},
+{
+    "label": "shutdown",
+    "action": "loginctl poweroff",
+    "text": "Shutdown",
+    "keybind": "s"
+},
+{
+    "label": "hibernate",
+    "action": "loginctl hibernate",
+    "text": "Hibernate",
+    "keybind": "h"
+},
+{
+    "label": "reboot",
+    "action": "loginctl reboot",
+    "text": "Reboot",
+    "keybind": "r"
+}
